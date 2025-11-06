@@ -13,3 +13,11 @@ I still need to do some more stuff in the schematic
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODYzNiwicHVyIjoiYmxvYl9pZCJ9fQ==--cf60621a59ddf73b0c7ab1d1d603973799ad9d29/image.png)
   
 
+## 11/6/2025 - Did the basic part of PCB  
+
+This is an RF pcb which I haven't designed any
+So I did the basic placement of components that I think are right
+
+Gonna ask an engineer to take a look later![Screenshot 2025-11-06 204820](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg2NSwicHVyIjoiYmxvYl9pZCJ9fQ==--49bf1e5a91dfa317d84873c7f1d29fa08adf7ed8/Screenshot%202025-11-06%20204820.png)
+  
+
