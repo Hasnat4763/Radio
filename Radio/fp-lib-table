@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "RadioLib")(type "KiCad")(uri "W:/RadioLib")(options "")(descr ""))
+  (lib (name "RadioLib")(type "KiCad")(uri "W:/RadioLib/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "ARDUINO_PRO_MINI")(type "KiCad")(uri "W:/ARDUINO_PRO_MINI")(options "")(descr ""))
+  (lib (name "Nokia_5110-3310_LCD")(type "KiCad")(uri "W:/kicad-libs/footprints/Nokia_5110-3310_LCD.pretty")(options "")(descr ""))
 )
