@@ -13,3 +13,22 @@ I still need to do some more stuff in the schematic
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODYzNiwicHVyIjoiYmxvYl9pZCJ9fQ==--cf60621a59ddf73b0c7ab1d1d603973799ad9d29/image.png)
   
 
+## 11/6/2025 - Did the basic part of PCB  
+
+This is an RF pcb which I haven't designed any
+So I did the basic placement of components that I think are right
+
+Gonna ask an engineer to take a look later![Screenshot 2025-11-06 204820](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg2NSwicHVyIjoiYmxvYl9pZCJ9fQ==--49bf1e5a91dfa317d84873c7f1d29fa08adf7ed8/Screenshot%202025-11-06%20204820.png)
+  
+
+## 11/10/2025 - Made the PCB a bit compact  
+
+I saw there was more space so I put the components a bit together but still far away from each other to counter noises from the digital circuits
+I also changed the potentiometer footprint to a horizontal one![Screenshot 2025-11-10 105518](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTk2MSwicHVyIjoiYmxvYl9pZCJ9fQ==--96384f8e8f2bf5465e673b5d67198c4ba00426a9/Screenshot%202025-11-10%20105518.png)
+
+Also increased power trace width to 0.4mm and increased the area below where I will glue the ferrite antenna
+
+I was also busy with siege project so this journal is containing stuff I did in multiple days
+
+Will start working on the case soon  
+
