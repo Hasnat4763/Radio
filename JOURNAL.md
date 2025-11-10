@@ -21,7 +21,7 @@ So I did the basic placement of components that I think are right
 Gonna ask an engineer to take a look later![Screenshot 2025-11-06 204820](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg2NSwicHVyIjoiYmxvYl9pZCJ9fQ==--49bf1e5a91dfa317d84873c7f1d29fa08adf7ed8/Screenshot%202025-11-06%20204820.png)
   
 
-## 11/10/2025 - Made the PCB a bit compact  
+## 11/10/2025 10 AM - Made the PCB a bit compact  
 
 I saw there was more space so I put the components a bit together but still far away from each other to counter noises from the digital circuits
 I also changed the potentiometer footprint to a horizontal one![Screenshot 2025-11-10 105518](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTk2MSwicHVyIjoiYmxvYl9pZCJ9fQ==--96384f8e8f2bf5465e673b5d67198c4ba00426a9/Screenshot%202025-11-10%20105518.png)
@@ -31,4 +31,13 @@ Also increased power trace width to 0.4mm and increased the area below where I w
 I was also busy with siege project so this journal is containing stuff I did in multiple days
 
 Will start working on the case soon  
+
+## 11/10/2025 9 PM - Reduced PCB Size  
+
+I reduced the size from around 60 x 180 mm to 55 x 65 mm
+I had a lot of free space so souptik suggested to reduced the size
+he was insisting on reducing it to 30x30
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTAwNjEsInB1ciI6ImJsb2JfaWQifX0=--09b80928158cdec2680b773ab6a1d19819c8989f/image.png)
+  
 
