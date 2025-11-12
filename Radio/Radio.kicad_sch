@@ -8499,7 +8499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DM-OLED096-636:MODULE_DM-OLED096-636"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 356.87 151.13 0)
 			(effects
 				(font
@@ -9258,7 +9258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RadioLib:RK09L1120A2S"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
 			(at 41.91 46.99 0)
 			(effects
 				(font
