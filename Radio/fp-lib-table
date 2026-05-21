@@ -6,4 +6,6 @@
 	(lib (name "XIAO_Series_Footprints") (type "KiCad") (uri "W:/Commiepad V2 Footprints/XIAO_Series_Footprints") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "W:/SI4735_D60_GU/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "RP2040-ZERO") (type "KiCad") (uri "W:/RP2040-ZERO") (options "") (descr ""))
+	(lib (name "LM4910MM") (type "KiCad") (uri "W:/LM4910MM") (options "") (descr ""))
+	(lib (name "PE4259") (type "KiCad") (uri "W:/PE4259") (options "") (descr ""))
 )
