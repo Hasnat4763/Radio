@@ -13,29 +13,29 @@ Here are some pictures of what I designed
 
 # Schematic
 
-![Schematic](image.png)
+![Schematic](\Images\image.png)
 
 # PCB
 
-![PCB](image-1.png)
+![PCB](\Images\image-1.png)
 
-![PCB 3D render](image-2.png)
+![PCB 3D render](\Images\image-2.png)
 
 # CAD
 
-![CAD 3D render](render3.png)
+![CAD 3D render](\Images\render3.png)
 
 Base of the case
 
-![base](image-4.png)
+![base](\Images\image-4.png)
 
 battery cover
 
-![battery cover](image-5.png)
+![battery cover](\Images\image-5.png)
 
 top cover
 
-![top cover](image-6.png)
+![top cover](\Images\image-6.png)
 
 # BOM (in progress)
 
@@ -90,13 +90,13 @@ For grounding you may be able to just lay the wire parallel to the ground for a 
 To flash the firmware, you first need to add the board to your arduino IDE.
 
 After getting into the Arduino IDE, Go to Preference
-![Preference](image-7.png)
+![Preference](\Images\image-7.png)
 
 Now click on the additional board manager URL and add ```https://github.com/earlephilhower/arduino-pico/releases/download/4.5.2/package_rp2040_index.json```
-![Board manager URL](image-8.png)
+![Board manager URL](\Images\image-8.png)
 
 Now go to boards manager and search RP2040 and download this library
-![Boards](image-9.png)
+![Boards](\Imagesimage-9.png)
 
 Now you can select the MCU as the waveshare RP2040 zero.
 
@@ -113,4 +113,4 @@ For more details on the Si4735 follow the directions in [Si4735 Arduino Library]
 
 # Zine 
 
-![Zine Poster](image-3.png)
+![Zine Poster](\Images\zine.png)
