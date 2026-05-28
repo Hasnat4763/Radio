@@ -8876,7 +8876,7 @@
 			(uuid "43ed8520-7229-40c9-a32e-b2d3d2447ef5")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR027")
 					(unit 1)
@@ -8954,7 +8954,7 @@
 			(uuid "7c817b2a-7356-4629-9f0d-bee29b36c3cc")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR033")
 					(unit 1)
@@ -9032,7 +9032,7 @@
 			(uuid "bcd4c7d0-e1ca-40af-af0e-0dece405ca21")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR014")
 					(unit 1)
@@ -9112,7 +9112,7 @@
 			(uuid "ccb67a46-bf3c-4450-b9ee-9c9d9454ec72")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C7")
 					(unit 1)
@@ -9194,7 +9194,7 @@
 			(uuid "e81f651c-f969-49df-89e4-3daebfb516ac")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "J4")
 					(unit 1)
@@ -9298,7 +9298,7 @@
 			(uuid "e0aa5c5b-bb64-4f48-a59d-58d40b81834a")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D3")
 					(unit 1)
@@ -9402,7 +9402,7 @@
 			(uuid "cc73f447-821e-4d41-8de4-f9f499ee107e")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D9")
 					(unit 1)
@@ -9481,7 +9481,7 @@
 			(uuid "0b598cb6-0153-4d2f-a6f3-de88bbf49c57")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR05")
 					(unit 1)
@@ -9561,7 +9561,7 @@
 			(uuid "4c8dbd7d-1df2-4755-94dc-9ac6efa0c696")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW2")
 					(unit 1)
@@ -9591,7 +9591,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 62.2363 254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9641,7 +9641,7 @@
 			(uuid "d02ef226-1ea0-4845-b8f2-881bfe62f3c8")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C12")
 					(unit 1)
@@ -9721,7 +9721,7 @@
 			(uuid "0f171ff5-293a-472b-a7b4-8a4517fe1d9d")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C5")
 					(unit 1)
@@ -9800,7 +9800,7 @@
 			(uuid "5ad5c305-05a6-4411-9ee4-a00315796c7d")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR08")
 					(unit 1)
@@ -9882,7 +9882,7 @@
 			(uuid "de50675f-a707-4bee-819b-6a68b6421264")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "AE2")
 					(unit 1)
@@ -9986,7 +9986,7 @@
 			(uuid "7d470396-e139-4edc-a617-928bd7a4264c")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D8")
 					(unit 1)
@@ -10066,7 +10066,7 @@
 			(uuid "eff4a7ab-4441-4858-b14e-339e9f4f25f0")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C1")
 					(unit 1)
@@ -10146,7 +10146,7 @@
 			(uuid "f31d1beb-aef1-4c81-a8c8-fa0d84cb5eb8")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C11")
 					(unit 1)
@@ -10230,7 +10230,7 @@
 			(uuid "a6c6456b-9ca9-4a4a-a8e1-07287462efa7")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D5")
 					(unit 1)
@@ -10308,7 +10308,7 @@
 			(uuid "fb33a6d6-34a4-4767-befc-a1dfef533fce")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR03")
 					(unit 1)
@@ -10388,7 +10388,7 @@
 			(uuid "b5e05fe7-80b1-4f7e-82cb-a9713a73277a")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW5")
 					(unit 1)
@@ -10467,7 +10467,7 @@
 			(uuid "42ac9eb0-9943-4f0a-97c2-392d45023475")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR021")
 					(unit 1)
@@ -10545,7 +10545,7 @@
 			(uuid "69e52823-5dbc-40bf-8a94-cbb047ccbfef")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR017")
 					(unit 1)
@@ -10623,7 +10623,7 @@
 			(uuid "0571a958-05be-472b-b40a-45a19f887824")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR018")
 					(unit 1)
@@ -10701,7 +10701,7 @@
 			(uuid "358270f4-6871-4963-958c-e6b12d15edfb")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR015")
 					(unit 1)
@@ -10781,7 +10781,7 @@
 			(uuid "673b1406-89eb-4bb2-b036-6f3e7ab3dda5")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C20")
 					(unit 1)
@@ -10858,7 +10858,7 @@
 			(uuid "ba4276a6-77fa-46f8-9382-33b7eae2391a")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "J5")
 					(unit 1)
@@ -10937,7 +10937,7 @@
 			(uuid "0c1f23b6-ff95-4e0c-8b21-7c6e8c8ee570")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR024")
 					(unit 1)
@@ -10977,7 +10977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 210.82 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11017,7 +11017,7 @@
 			(uuid "8b03e8cd-2815-44fd-a0ee-3f5d74beb368")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R1")
 					(unit 1)
@@ -11095,7 +11095,7 @@
 			(uuid "9afc323d-2535-4b49-8e53-89cfd7dbb5a3")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR034")
 					(unit 1)
@@ -11173,7 +11173,7 @@
 			(uuid "9eb60454-f467-4398-997a-e45a324ac9a0")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR013")
 					(unit 1)
@@ -11252,7 +11252,7 @@
 			(uuid "3e61e4af-0f8f-4319-bb24-a257dd24d470")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR04")
 					(unit 1)
@@ -11282,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Value" "0.39uF"
+		(property "Value" "0.47uF"
 			(at 179.07 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11332,7 +11332,7 @@
 			(uuid "a814adf6-0696-4784-bbcb-6883c423efa1")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C9")
 					(unit 1)
@@ -11411,7 +11411,7 @@
 			(uuid "60232dab-68d0-44a2-89a9-9f25f406c0bc")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR012")
 					(unit 1)
@@ -11603,7 +11603,7 @@
 			(uuid "88f0fc8e-48ba-4ac8-ba15-c7d910f75c3c")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "U5")
 					(unit 1)
@@ -11707,7 +11707,7 @@
 			(uuid "eb328bb4-2f3c-4d96-97df-c3f00a16c169")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D4")
 					(unit 1)
@@ -11785,7 +11785,7 @@
 			(uuid "1b9fcbb9-b5bd-4cf8-afe4-74fd454689c4")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR01")
 					(unit 1)
@@ -11867,7 +11867,7 @@
 			(uuid "0182feb8-4e8d-441e-a8b2-e71185e9744e")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C10")
 					(unit 1)
@@ -11945,7 +11945,7 @@
 			(uuid "4c755ef2-a9bb-4883-aafb-09c69f1b1141")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR030")
 					(unit 1)
@@ -12024,7 +12024,7 @@
 			(uuid "ec969ecb-da6a-4eee-ad10-f11b14580a59")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR020")
 					(unit 1)
@@ -12102,7 +12102,7 @@
 			(uuid "53572b94-2515-40a5-bd42-20c4e06ae204")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR07")
 					(unit 1)
@@ -12180,7 +12180,7 @@
 			(uuid "d5821fdd-91e1-4d20-bc61-1157eb4f01de")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR02")
 					(unit 1)
@@ -12273,7 +12273,7 @@
 			(uuid "38e8cd2e-5a74-46cc-b611-ea0f23ff5e40")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW1")
 					(unit 1)
@@ -12353,7 +12353,7 @@
 			(uuid "b53de8a2-2ddf-4078-88ec-1e623ca20cab")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "Y1")
 					(unit 1)
@@ -12431,7 +12431,7 @@
 			(uuid "903c75ef-0b90-4f64-98bb-90db992b5f1e")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR028")
 					(unit 1)
@@ -12535,7 +12535,7 @@
 			(uuid "d257bf58-e6fc-4eb0-bafc-29dc532c09a0")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D2")
 					(unit 1)
@@ -12617,7 +12617,7 @@
 			(uuid "328a5f2d-02f5-4d9a-97d5-647b95a0397f")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C19")
 					(unit 1)
@@ -12647,7 +12647,7 @@
 				)
 			)
 		)
-		(property "Value" "0.39uF"
+		(property "Value" "0.47uF"
 			(at 187.96 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12697,7 +12697,7 @@
 			(uuid "39d7f139-0e8c-429e-9eca-73642349140d")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C8")
 					(unit 1)
@@ -12739,7 +12739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 308.61 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -12779,7 +12779,7 @@
 			(uuid "dc2fa954-a056-40d2-bba9-93f676818763")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R3")
 					(unit 1)
@@ -12857,7 +12857,7 @@
 			(uuid "ca7c4568-3651-4f80-86d9-ad59071af3aa")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR016")
 					(unit 1)
@@ -12937,7 +12937,7 @@
 			(uuid "7772d4eb-5985-423a-bae8-b91e06898b22")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C14")
 					(unit 1)
@@ -12979,7 +12979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 320.04 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -13019,7 +13019,7 @@
 			(uuid "9154df6e-2f5f-4ff9-a066-04f69b0baef0")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R5")
 					(unit 1)
@@ -13099,7 +13099,7 @@
 			(uuid "4fdd78bc-c063-439e-946b-14764dba00a0")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "L3")
 					(unit 1)
@@ -13178,7 +13178,7 @@
 			(uuid "85ed7b0f-9b9e-41a8-b9da-fdab2d132c35")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR019")
 					(unit 1)
@@ -13455,7 +13455,7 @@
 			(uuid "760914a1-2f16-4edc-afb0-5c188acba954")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "U2")
 					(unit 1)
@@ -13541,7 +13541,7 @@
 			(uuid "c4fa0ec8-e898-4ec7-8ef2-6a111aca0674")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "J2")
 					(unit 1)
@@ -13619,7 +13619,7 @@
 			(uuid "c43583e4-be17-4fc6-800e-6734f285079b")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR011")
 					(unit 1)
@@ -13699,7 +13699,7 @@
 			(uuid "43c47017-2bdd-45d7-8ec3-69399aa96fe6")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW3")
 					(unit 1)
@@ -13777,7 +13777,7 @@
 			(uuid "9722e872-6d68-4fd7-a15a-5944590f68e8")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR010")
 					(unit 1)
@@ -13857,7 +13857,7 @@
 			(uuid "f65382d7-0109-43fe-8708-cbdcb87b1352")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW7")
 					(unit 1)
@@ -13961,7 +13961,7 @@
 			(uuid "db5e5a49-0acb-42c4-8a3d-5447f5b37f8d")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D7")
 					(unit 1)
@@ -14043,7 +14043,7 @@
 			(uuid "4fda1707-a2fe-4d9a-877d-f989eafaa955")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C4")
 					(unit 1)
@@ -14128,7 +14128,7 @@
 			(uuid "788b9889-1b9f-4f23-adcd-18768c5a5597")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "J1")
 					(unit 1)
@@ -14210,7 +14210,7 @@
 			(uuid "c4221076-3375-4d0c-bc2b-cff76712461d")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "FB2")
 					(unit 1)
@@ -14289,7 +14289,7 @@
 			(uuid "394a699e-4b90-4f21-abec-0f2aafd5a30f")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR026")
 					(unit 1)
@@ -14331,7 +14331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 196.85 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -14371,7 +14371,7 @@
 			(uuid "004372b1-e4b8-43e2-9426-16b11e6341b8")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R9")
 					(unit 1)
@@ -14453,7 +14453,7 @@
 			(uuid "8309ba46-70e5-47eb-b5cd-764d615a503e")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "L2")
 					(unit 1)
@@ -14495,7 +14495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 196.85 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -14535,7 +14535,7 @@
 			(uuid "bc54c35a-74aa-4272-95e9-b7d36b615250")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R8")
 					(unit 1)
@@ -14635,7 +14635,7 @@
 			(uuid "1bd035cb-b084-49ce-b481-38e271d93928")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "U3")
 					(unit 1)
@@ -14675,7 +14675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 194.31 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -14715,7 +14715,7 @@
 			(uuid "75543a5a-1df0-41d4-ae15-095adafd2f93")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R4")
 					(unit 1)
@@ -14755,7 +14755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 210.82 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14795,7 +14795,7 @@
 			(uuid "ddeb5b11-ba16-4492-a124-c163f92f7e93")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R2")
 					(unit 1)
@@ -14877,7 +14877,7 @@
 			(uuid "dc48ce02-06dc-45f5-9a09-28e2b3e862b5")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "FB1")
 					(unit 1)
@@ -14955,7 +14955,7 @@
 			(uuid "6e839b2c-4e8d-4333-b1cb-da61bead5838")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR032")
 					(unit 1)
@@ -15034,7 +15034,7 @@
 			(uuid "074ef972-bc6e-4d2c-9d32-3feb88bc2d73")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR09")
 					(unit 1)
@@ -15113,7 +15113,7 @@
 			(uuid "e042faf9-6a76-46eb-a626-17bcb0b9defb")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR06")
 					(unit 1)
@@ -15195,7 +15195,7 @@
 			(uuid "fce42a28-69e3-437a-bdd5-801271f071dd")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "AE1")
 					(unit 1)
@@ -15275,7 +15275,7 @@
 			(uuid "68de18f6-3d81-4fd3-b309-447a9a4b624e")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C6")
 					(unit 1)
@@ -15354,7 +15354,7 @@
 			(uuid "8b03fc9a-0c9d-4752-b3e8-17e2128628f6")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR025")
 					(unit 1)
@@ -15538,7 +15538,7 @@
 			(uuid "7d7ec542-6634-41f4-88c8-fecd42d9f74d")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "U4")
 					(unit 1)
@@ -15618,7 +15618,7 @@
 			(uuid "13a3be14-ab51-4f46-a836-ca357adb9280")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D1")
 					(unit 1)
@@ -15697,7 +15697,7 @@
 			(uuid "ce1daa41-7ed0-4641-93a9-138019417ca4")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR029")
 					(unit 1)
@@ -15777,7 +15777,7 @@
 			(uuid "edd69d2d-eac8-42b4-af51-c49109140c78")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C2")
 					(unit 1)
@@ -15817,7 +15817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 194.31 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15857,7 +15857,7 @@
 			(uuid "514dea91-25c0-4e7f-bb2b-fcf6e9b5e0dc")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "R6")
 					(unit 1)
@@ -16006,7 +16006,7 @@
 			(uuid "e60d6b68-d73e-4507-bdf8-fc7284c034b9")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "U1")
 					(unit 1)
@@ -16086,7 +16086,7 @@
 			(uuid "3ecfc50e-b4f1-426e-9146-853fcbc88f03")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW6")
 					(unit 1)
@@ -16166,7 +16166,7 @@
 			(uuid "19b9b915-def8-4682-8e1f-f7b28acfd8a0")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW4")
 					(unit 1)
@@ -16244,7 +16244,7 @@
 			(uuid "d18765ed-3610-491c-babd-fc6153761a8a")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR023")
 					(unit 1)
@@ -16328,7 +16328,7 @@
 			(uuid "a003a23e-e651-4284-bb14-e4156f4e311b")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "D6")
 					(unit 1)
@@ -16410,7 +16410,7 @@
 			(uuid "8a1277da-b656-496a-9b53-602f3d1bf78e")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C3")
 					(unit 1)
@@ -16495,7 +16495,7 @@
 			(uuid "0834cebb-c46b-4d80-a0dd-dd2b96044678")
 		)
 		(instances
-			(project "Radio"
+			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "J3")
 					(unit 1)
