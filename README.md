@@ -54,27 +54,20 @@ top cover
 | LM4910MM | 5 | $11.43  | [Link](https://www.aliexpress.com/item/1005008963839272.html)|
 | 2.5K Ferrite Bead | 100 | $1.63  | [Link](https://www.aliexpress.com/item/1005009841998170.html)|
 | 1K Ferrite Bead | 100 | $1.70  | [Link](https://www.aliexpress.com/item/1005009841998170.html)|
-| 100uF, 100nF, 22pF, 1uF, 0.47uF, 33pF, 18pF, 22nF Capacitor Pack | 720 | $6.21  | [Link](https://www.aliexpress.com/item/1005006124283234.html)|
+| 100uF, 10uF, 100nF, 22pF, 1uF, 0.47uF, 33pF, 18pF, 22nF Capacitor Pack | 720 | $6.21  | [Link](https://www.aliexpress.com/item/1005006124283234.html)|
 | 100 ohm Resistor 1206 | 100 | $1.61  | [Link](https://www.aliexpress.com/item/1005011924690352.html)|
 | 20k ohm Resistor 1206 | 100 | $1.61  | [Link](https://www.aliexpress.com/item/1005011924690352.html)|
 | 100k ohm Resistor 1206 | 100 | $1.61  | [Link](https://www.aliexpress.com/item/1005011924690352.html)|
+| SMA connector Edge Mount | 5 | $5.32  | [Link](https://www.aliexpress.com/item/1005007424915378.html)|
+| 180nH Inductor 0603 | 100 | $1.33  | [Link](https://www.aliexpress.com/item/1005004900337516.html)|
+| 4.7uH Inductor 0603 | 100 | $1.33  | [Link](https://www.aliexpress.com/item/1005004900337516.html)|
+| Tactile Switches Push buttons | 20 | $4.12  | [Link](https://www.aliexpress.com/item/1005006046180384.html)|
 | M3 Heat Set Inserts | 30 | $6.13 | [Link](https://www.aliexpress.com/item/1005006071488810.html) |
 | M3 Fasteners | 50 | $6.28 | [Link](https://www.aliexpress.com/item/1005011845940916.html) |
 | Top Case                                         | 1        | Printing Legion |  |
 | Bottom Case                                      | 1        | Printing Legion |  |
 | Battery Cover | 1 | Printing Legion | |
 | PCB | 5 | $27.67 | JLCPCB |
-
-# Capacitor and Resistor Value
-Here are all the resistor and capacitor values from your BOM:
-
-## Resistors
-
-* 100Ω
-* 100kΩ
-* 20kΩ
-
-
 
 # Build/Usage Instruction
 
