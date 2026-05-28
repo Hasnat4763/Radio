@@ -62,6 +62,9 @@ top cover
 | 180nH Inductor 0603 | 100 | $1.33  | [Link](https://www.aliexpress.com/item/1005004900337516.html)|
 | 4.7uH Inductor 0603 | 100 | $1.33  | [Link](https://www.aliexpress.com/item/1005004900337516.html)|
 | Tactile Switches Push buttons | 20 | $4.12  | [Link](https://www.aliexpress.com/item/1005006046180384.html)|
+| 18650 Lithium Battery | 2 | BDT 510 (~$4.16)  | [Link](https://store.roboticsbd.com/battery-charger/983-18650-generic-37v-li-ion-battery-standard-quality-flat-top-solderable-robotics-bangladesh.html)|
+| TP4056 BMS | 1 | $4.02 | [Link](https://www.aliexpress.com/item/1005009635476640.html)|
+| Rocker Switch | 5 | $5.20  | [Link](https://www.aliexpress.com/item/1005008778176373.html)|
 | M3 Heat Set Inserts | 30 | $6.13 | [Link](https://www.aliexpress.com/item/1005006071488810.html) |
 | M3 Fasteners | 50 | $6.28 | [Link](https://www.aliexpress.com/item/1005011845940916.html) |
 | Top Case                                         | 1        | Printing Legion |  |
