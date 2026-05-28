@@ -65,6 +65,8 @@ top cover
 | 18650 Lithium Battery | 2 | BDT 510 (~$4.16)  | [Link](https://store.roboticsbd.com/battery-charger/983-18650-generic-37v-li-ion-battery-standard-quality-flat-top-solderable-robotics-bangladesh.html)|
 | TP4056 BMS | 1 | $4.02 | [Link](https://www.aliexpress.com/item/1005009635476640.html)|
 | Rocker Switch | 5 | $5.20  | [Link](https://www.aliexpress.com/item/1005008778176373.html)|
+| Binding Post | 5 | $6.00 | [Link](https://www.aliexpress.com/item/1005008274414247.html)|
+| Headphone Connector | 10 | $4.45   | [Link](https://www.aliexpress.com/item/32871877936.html)|
 | M3 Heat Set Inserts | 30 | $6.13 | [Link](https://www.aliexpress.com/item/1005006071488810.html) |
 | M3 Fasteners | 50 | $6.28 | [Link](https://www.aliexpress.com/item/1005011845940916.html) |
 | Top Case                                         | 1        | Printing Legion |  |
