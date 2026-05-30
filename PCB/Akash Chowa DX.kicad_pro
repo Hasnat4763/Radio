@@ -60,32 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|120085000|51935000|674d0417-ebc4-4c07-bc4d-ffc3e8717684|5c916f3f-bcad-4995-a9f1-c365e303f301",
-          ""
-        ],
-        [
-          "solder_mask_bridge|120375000|47635000|a171635b-530a-46d2-9f59-d43e64e7d26c|13fe211d-efa5-4deb-92e3-ce8ca2b34020",
-          ""
-        ],
-        [
-          "solder_mask_bridge|120735000|51935000|5c916f3f-bcad-4995-a9f1-c365e303f301|56b12143-05a6-4e3c-8162-66e4fee3bf01",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121025000|47635000|20b0fd81-76cd-4336-824f-5f67eeaee36d|a171635b-530a-46d2-9f59-d43e64e7d26c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121385000|51935000|56b12143-05a6-4e3c-8162-66e4fee3bf01|be54332c-8595-4d52-a267-4e15f664c0ef",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121675000|47635000|5dc7e60c-1dbc-428c-82a8-445bd3669283|20b0fd81-76cd-4336-824f-5f67eeaee36d",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -265,7 +240,13 @@
       "mpn": "",
       "sch_revision": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 6,
+        "enabled": true,
+        "topLayer": 4
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -722,7 +703,7 @@
         "uuid": "10cc001d-d4eb-4c00-ab07-3d482840f733"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Diode1-6,D5",
     "variants": []
   },
   "sheets": [

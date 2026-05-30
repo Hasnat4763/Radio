@@ -17,9 +17,9 @@ Here are some pictures of what I designed
 
 # PCB
 
-![PCB](Images/image-1.png)
+![PCB](Images/pcb.png)
 
-![PCB 3D render](Images/image-2.png)
+![PCB 3D render](Images/pcb_render.png)
 
 # CAD
 

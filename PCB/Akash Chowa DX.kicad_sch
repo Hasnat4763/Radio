@@ -5,14 +5,359 @@
 	(uuid "10cc001d-d4eb-4c00-ab07-3d482840f733")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Amplifier_Audio:PAM8302AAY"
+		(symbol "1N4148:1N4148"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Diode"
+				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1N4148"
+				(at -5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1N4148:DIOAD753W49L380D172B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "onsemi"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.91mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "AXIAL LEAD-2 ON Semiconductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "1N4148"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description_1" "Diode Standard 75V 200mA Surface Mount SOD-523F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Onsemi"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "1N4148_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Amplifier_Audio:TPA6132A2RTE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 7.62 11.43 0)
+				(at -7.62 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -21,8 +366,8 @@
 					)
 				)
 			)
-			(property "Value" "PAM8302AAY"
-				(at 7.62 8.89 0)
+			(property "Value" "TPA6132A2RTE"
+				(at 8.89 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,7 +376,29 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+			(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
+				(at 2.54 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpa6132a2.pdf"
+				(at -7.62 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "25mW, Stereo, DirectPath Audio Amplifier, WQFN-16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,7 +409,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf"
+			(property "ki_keywords" "DirectPath audio amplifier Stereo"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +420,7 @@
 					)
 				)
 			)
-			(property "Description" "2.5W Filterless Class-D Mono Audio Amplifier, DFN-8"
+			(property "ki_fp_filters" "WQFN*1EP*3x3mm*P0.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,32 +431,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "audio amplifier class d"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DFN*EP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PAM8302AAY_0_1"
+			(symbol "TPA6132A2RTE_0_1"
 				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -99,11 +444,11 @@
 					)
 				)
 			)
-			(symbol "PAM8302AAY_1_1"
+			(symbol "TPA6132A2RTE_1_1"
 				(pin input line
-					(at -10.16 -5.08 0)
+					(at -12.7 0 0)
 					(length 2.54)
-					(name "~{SD}"
+					(name "INL-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -118,11 +463,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 -5.08 180)
+				(pin input line
+					(at -12.7 2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "INL+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -138,9 +482,9 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
+					(at -12.7 10.16 0)
 					(length 2.54)
-					(name "IN+"
+					(name "INR+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -156,9 +500,9 @@
 					)
 				)
 				(pin input line
-					(at -10.16 0 0)
+					(at -12.7 7.62 0)
 					(length 2.54)
-					(name "IN-"
+					(name "INR-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -174,9 +518,9 @@
 					)
 				)
 				(pin output line
-					(at 10.16 5.08 180)
+					(at 12.7 7.62 180)
 					(length 2.54)
-					(name "OUT+"
+					(name "OUTR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -191,10 +535,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 10.16 270)
+				(pin input line
+					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "VDD"
+					(name "G0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -209,10 +553,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -10.16 90)
+				(pin input line
+					(at -12.7 -7.62 0)
 					(length 2.54)
-					(name "GND"
+					(name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -227,10 +571,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
+				(pin power_in line
+					(at 0 -15.24 90)
 					(length 2.54)
-					(name "OUT-"
+					(name "HPVSS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -238,6 +582,168 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "CPN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "CPP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "HPVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -15.24 90)
+					(length 2.54)
+					(name "SGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "OUTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2787,193 +3293,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WT"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?523*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4148WT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WT_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
@@ -3133,315 +3452,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LM4910MM:LM4910MM"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 11.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LM4910MM"
-				(at -12.7 -14.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LM4910MM:SOP65P490X110-8N"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "35-mW, stereo, analog input headphone amplifier"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "VSSOP-8 Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM4910MM/NOPB/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "LM4910MM/NOPB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LM4910MM/NOPB/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "LM4910MM_0_0"
-				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "IN_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "IN_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "~{SD}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "VO3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "VO2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "VO1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3734,9 +3744,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:CM1213A-01SO"
+		(symbol "Power_Protection:PRTR5V0U2X"
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3744,7 +3754,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 2.794 8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3753,8 +3763,8 @@
 					)
 				)
 			)
-			(property "Value" "CM1213A-01SO"
-				(at 0 3.175 0)
+			(property "Value" "PRTR5V0U2X"
+				(at 8.128 -9.398 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3763,20 +3773,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 1.27 -4.318 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF"
-				(at -1.905 2.032 90)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+				(at 1.524 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3786,7 +3784,18 @@
 					)
 				)
 			)
-			(property "Description" "Single Channel ESD Protection Array"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
+				(at 1.524 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3797,7 +3806,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ESD Protection diodes transient suppressor"
+			(property "ki_keywords" "ESD protection diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3808,7 +3817,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?143*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3819,10 +3828,10 @@
 					)
 				)
 			)
-			(symbol "CM1213A-01SO_0_1"
+			(symbol "PRTR5V0U2X_0_1"
 				(rectangle
-					(start -3.048 -3.048)
-					(end 3.048 1.905)
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3831,9 +3840,44 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy -3.556 2.794) (xy -1.524 2.794) (xy -2.54 4.826) (xy -3.556 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 -4.826) (xy -1.524 -4.826) (xy -2.54 -2.794) (xy -3.556 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -2.54 0)
-					(radius 0.2032)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -3844,7 +3888,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.032) (xy -2.54 0)
+						(xy -2.54 0) (xy -7.62 0)
 					)
 					(stroke
 						(width 0)
@@ -3856,7 +3900,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -2.667) (xy -1.905 -1.397)
+						(xy -1.524 4.826) (xy -3.556 4.826)
 					)
 					(stroke
 						(width 0)
@@ -3868,7 +3912,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.667) (xy -1.27 -1.397) (xy -1.905 -2.032) (xy -1.27 -2.667)
+						(xy -1.524 -2.794) (xy -3.556 -2.794)
 					)
 					(stroke
 						(width 0)
@@ -3880,67 +3924,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -2.032) (xy -2.54 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -2.032) (xy 0.635 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 0.762) (xy -0.254 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -0.762) (xy -0.254 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.254 0.762)
+						(xy -1.016 -1.016) (xy 1.016 -1.016) (xy 0 1.016) (xy -1.016 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -3951,8 +3935,19 @@
 					)
 				)
 				(circle
-					(center 0 -2.032)
-					(radius 0.2032)
+					(center 0 6.35)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -6.35)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -3963,7 +3958,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
+						(xy 0 -7.62) (xy 0 7.62)
 					)
 					(stroke
 						(width 0)
@@ -3975,7 +3970,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 -0.762) (xy 0.508 0.762) (xy -0.254 0) (xy 0.508 -0.762)
+						(xy 1.016 1.016) (xy -1.016 1.016) (xy -1.016 0.508)
 					)
 					(stroke
 						(width 0)
@@ -3987,7 +3982,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 -0.762) (xy 0.508 0.762) (xy -0.254 0) (xy 0.508 -0.762)
+						(xy 1.524 4.826) (xy 3.556 4.826)
 					)
 					(stroke
 						(width 0)
@@ -3999,7 +3994,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.889 0) (xy -1.016 0)
+						(xy 1.524 -2.794) (xy 3.556 -2.794)
 					)
 					(stroke
 						(width 0)
@@ -4011,55 +4006,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.889 0) (xy -1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.667) (xy 1.27 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.667) (xy 1.27 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -2.667) (xy 1.905 -1.397) (xy 1.27 -2.032) (xy 1.905 -2.667)
+						(xy 2.54 0) (xy 7.62 0)
 					)
 					(stroke
 						(width 0)
@@ -4071,7 +4018,7 @@
 				)
 				(circle
 					(center 2.54 0)
-					(radius 0.2032)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -4082,7 +4029,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.032) (xy 0.635 -2.032)
+						(xy 3.556 2.794) (xy 1.524 2.794) (xy 2.54 4.826) (xy 3.556 2.794)
 					)
 					(stroke
 						(width 0)
@@ -4094,19 +4041,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.032) (xy 0.635 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 0)
+						(xy 3.556 -4.826) (xy 1.524 -4.826) (xy 2.54 -2.794) (xy 3.556 -4.826)
 					)
 					(stroke
 						(width 0)
@@ -4117,11 +4052,11 @@
 					)
 				)
 			)
-			(symbol "CM1213A-01SO_1_1"
+			(symbol "PRTR5V0U2X_1_1"
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "CH1"
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4137,9 +4072,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "VP"
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "I/O1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4155,9 +4090,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "VN"
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "I/O2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4165,6 +4100,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6149,10 +6102,10 @@
 	)
 	(text "Antenna"
 		(exclude_from_sim no)
-		(at 103.886 131.064 0)
+		(at 127.762 125.73 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "0170532a-6b49-470d-906e-7b90ed374522")
@@ -6217,7 +6170,7 @@
 		)
 		(uuid "923817d0-d2f6-4765-8319-c64da1440c8f")
 	)
-	(text "Audio Amp PAM8302A (Speaker)\nLM4910 (Headphones)"
+	(text "TPA6132A2RTE AMP for Headphone"
 		(exclude_from_sim no)
 		(at 168.402 123.444 0)
 		(effects
@@ -6245,34 +6198,16 @@
 		(uuid "04994047-f0fd-4bc4-b464-8219b535f064")
 	)
 	(junction
-		(at 342.9 210.82)
+		(at 342.9 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09198cc2-b79d-4e7e-b704-05018acf40b7")
-	)
-	(junction
-		(at 78.74 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2289bc7e-8d04-4476-8531-ea86bdb063a1")
-	)
-	(junction
-		(at 265.43 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25d5e2fa-5cc3-414e-bcc7-508c5e8d20fa")
+		(uuid "0bbe7389-9996-4adc-9c26-54e88800c27f")
 	)
 	(junction
 		(at 53.34 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a34f864-52a3-4a3d-be25-d0376f799572")
-	)
-	(junction
-		(at 304.8 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b77dd0f-869f-49eb-9e08-7136a4416005")
 	)
 	(junction
 		(at 148.59 92.71)
@@ -6287,10 +6222,10 @@
 		(uuid "3a1da547-2b28-4ce0-8bdb-d2a7fabe7681")
 	)
 	(junction
-		(at 304.8 210.82)
+		(at 342.9 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "44b32b85-c637-4bbc-9150-f118bec41aac")
+		(uuid "4796bac0-a022-48b6-ab06-3215f8dac79c")
 	)
 	(junction
 		(at 57.15 261.62)
@@ -6299,34 +6234,40 @@
 		(uuid "70be670b-400e-4d3c-a58d-4f645e5ef6dd")
 	)
 	(junction
+		(at 120.65 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "726cf557-e24b-42c4-af57-fc4fe4e5245e")
+	)
+	(junction
+		(at 227.33 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74996755-e5d7-4c26-9ee2-252f70483296")
+	)
+	(junction
+		(at 304.8 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7589c943-ee98-4a1f-b0df-ee8aa2458477")
+	)
+	(junction
+		(at 232.41 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83cc3e8a-5052-460e-a5fd-2021654f225a")
+	)
+	(junction
 		(at 90.17 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d0f0cda-f104-4242-85c6-045f103a5ce0")
 	)
 	(junction
-		(at 342.9 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ef17dad-8a54-4992-a8ca-293fee73987f")
-	)
-	(junction
-		(at 196.85 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3fefc79-25f2-4ba8-b46b-baa90e93049f")
-	)
-	(junction
 		(at 76.2 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b314ea5d-ab85-4762-9bae-b7718dc35955")
-	)
-	(junction
-		(at 233.68 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd304b38-8182-4271-a199-2469b3adf843")
 	)
 	(junction
 		(at 143.51 46.99)
@@ -6347,10 +6288,16 @@
 		(uuid "d4c988d9-8fe2-492d-90ed-ab12637268af")
 	)
 	(junction
-		(at 196.85 219.71)
+		(at 227.33 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da4d6bb6-f322-4960-8ba1-016ee06b33d4")
+		(uuid "dd270d4d-b293-47da-88ef-2da14409e686")
+	)
+	(junction
+		(at 304.8 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f74e6707-e86b-4948-bfb2-c48032220047")
 	)
 	(no_connect
 		(at 161.29 64.77)
@@ -6359,16 +6306,6 @@
 	(no_connect
 		(at 161.29 72.39)
 		(uuid "e6248855-dd71-45d3-bddb-51fddbe09309")
-	)
-	(wire
-		(pts
-			(xy 233.68 143.51) (xy 233.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00435843-55e2-4847-b4dc-78447dc2929c")
 	)
 	(wire
 		(pts
@@ -6402,13 +6339,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 229.87) (xy 265.43 229.87)
+			(xy 227.33 226.06) (xy 227.33 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "093a735d-8a4c-42b4-aeed-58fa2b2ae3ca")
+		(uuid "09200bb5-c17e-43fd-9a53-59b10aa5edc2")
 	)
 	(wire
 		(pts
@@ -6432,13 +6369,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 219.71) (xy 203.2 219.71)
+			(xy 232.41 217.17) (xy 232.41 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e3d9279-7441-4648-ac06-a9c7f0eee7f6")
+		(uuid "164bd279-b38f-46c3-9dbf-21814c10d86e")
 	)
 	(wire
 		(pts
@@ -6462,13 +6399,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 213.36) (xy 58.42 222.25)
+			(xy 227.33 224.79) (xy 232.41 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c8e195d-a0f8-4baf-83f9-8b90363c5a96")
+		(uuid "1b32a572-47e3-4259-acc0-d1c94946df73")
 	)
 	(wire
 		(pts
@@ -6479,6 +6416,16 @@
 			(type default)
 		)
 		(uuid "1cb5c3b2-aa10-46c6-8f3c-e80afe9f9de4")
+	)
+	(wire
+		(pts
+			(xy 227.33 208.28) (xy 229.87 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fdf1968-f120-4801-b734-871d8a924417")
 	)
 	(wire
 		(pts
@@ -6512,37 +6459,17 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 210.82) (xy 342.9 220.98)
+			(xy 342.9 208.28) (xy 342.9 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25316361-11d0-49fe-aca4-715cbaf787e0")
+		(uuid "2360eefd-17d8-482c-802c-fbbe675761d8")
 	)
 	(wire
 		(pts
-			(xy 260.35 227.33) (xy 260.35 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25333b41-cfde-4081-944c-2dae8232336a")
-	)
-	(wire
-		(pts
-			(xy 168.91 227.33) (xy 175.26 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25dc3670-01c1-4f22-9598-347e68b3ba2f")
-	)
-	(wire
-		(pts
-			(xy 361.95 210.82) (xy 353.06 210.82)
+			(xy 353.06 208.28) (xy 361.95 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6582,13 +6509,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 158.75) (xy 208.28 158.75)
+			(xy 245.11 198.12) (xy 259.08 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dcc10b4-770f-4381-87f4-7f41ce9d01eb")
+		(uuid "2a1c121c-37e2-4b97-a63f-a350a27f3662")
 	)
 	(wire
 		(pts
@@ -6632,16 +6559,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 198.12) (xy 203.2 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3174aa34-00f7-491c-90a6-1eae4052bb8c")
-	)
-	(wire
-		(pts
 			(xy 344.17 142.24) (xy 354.33 142.24)
 		)
 		(stroke
@@ -6672,6 +6589,36 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 205.74) (xy 259.08 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366785b0-2bed-4430-90a0-484098585cfb")
+	)
+	(wire
+		(pts
+			(xy 234.95 208.28) (xy 234.95 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368640a5-a27c-4adc-9583-8225d68f49f5")
+	)
+	(wire
+		(pts
+			(xy 130.81 210.82) (xy 125.73 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3729b6a3-e216-4f21-801e-9b80f8552226")
+	)
+	(wire
+		(pts
 			(xy 130.81 64.77) (xy 111.76 64.77)
 		)
 		(stroke
@@ -6692,7 +6639,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 195.58) (xy 342.9 210.82)
+			(xy 342.9 195.58) (xy 342.9 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6702,13 +6649,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 227.33) (xy 191.77 227.33)
+			(xy 193.04 190.5) (xy 219.71 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b32c4bf-49cc-441a-828b-78e9cd3e0065")
+		(uuid "3b1fa561-1d7f-468f-8398-57b65038d370")
+	)
+	(wire
+		(pts
+			(xy 229.87 148.59) (xy 229.87 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b31bade-65fa-45a2-8612-47ef9d728302")
+	)
+	(wire
+		(pts
+			(xy 200.66 217.17) (xy 219.71 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3ec9ea-c9b1-4c74-a8ab-5035faef63f2")
 	)
 	(wire
 		(pts
@@ -6752,16 +6719,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 161.29) (xy 233.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "426282b4-bb68-4d49-a1ea-6f984f472680")
-	)
-	(wire
-		(pts
 			(xy 31.75 208.28) (xy 39.37 208.28)
 		)
 		(stroke
@@ -6772,23 +6729,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 158.75) (xy 215.9 166.37)
+			(xy 245.11 200.66) (xy 245.11 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46e3a073-3815-43c3-9b7f-108c70675b43")
-	)
-	(wire
-		(pts
-			(xy 213.36 171.45) (xy 223.52 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aacb8f8-e1c5-48c2-b603-02403d3cb15a")
+		(uuid "4589057b-67fc-414a-bafc-b5c2a799bc74")
 	)
 	(wire
 		(pts
@@ -6802,16 +6749,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 219.71) (xy 238.76 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50abf67d-310e-4e43-b74f-3ab6ac056d9b")
-	)
-	(wire
-		(pts
 			(xy 57.15 257.81) (xy 59.69 257.81)
 		)
 		(stroke
@@ -6819,16 +6756,6 @@
 			(type default)
 		)
 		(uuid "514183f7-4c6d-4a64-88b7-c586f78fe90b")
-	)
-	(wire
-		(pts
-			(xy 199.39 171.45) (xy 208.28 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5340cbcb-e16d-4876-801f-8c92f609296a")
 	)
 	(wire
 		(pts
@@ -6842,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 196.85) (xy 304.8 210.82)
+			(xy 304.8 196.85) (xy 304.8 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6852,13 +6779,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 227.33) (xy 203.2 227.33)
+			(xy 210.82 182.88) (xy 219.71 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "555f6a63-9daf-4f27-aa0d-bc1fc0136f42")
+		(uuid "55998b88-ad8a-4a3f-9765-798db76d8358")
 	)
 	(wire
 		(pts
@@ -6892,6 +6819,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 193.04) (xy 219.71 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be4a917-fc3a-4f28-b3ff-0d8fe9f36ea1")
+	)
+	(wire
+		(pts
 			(xy 31.75 53.34) (xy 38.1 53.34)
 		)
 		(stroke
@@ -6912,33 +6849,43 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 232.41) (xy 238.76 227.33)
+			(xy 227.33 224.79) (xy 227.33 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "635d4479-0231-4564-8698-8621c651cd99")
+		(uuid "6210b859-801d-4345-86fb-3826c3d4d53f")
 	)
 	(wire
 		(pts
-			(xy 265.43 191.77) (xy 265.43 212.09)
+			(xy 113.03 186.69) (xy 120.65 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6398bffa-150f-472b-8547-78dd7db051da")
+		(uuid "662ed367-fe19-4b18-a912-489da569fb24")
 	)
 	(wire
 		(pts
-			(xy 361.95 232.41) (xy 353.06 232.41)
+			(xy 353.06 234.95) (xy 361.95 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67cc6f32-100f-483e-8362-0e1eb590fa65")
+	)
+	(wire
+		(pts
+			(xy 194.31 182.88) (xy 203.2 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6917e83e-6db8-4739-8f39-838b24ef4d75")
 	)
 	(wire
 		(pts
@@ -7022,7 +6969,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 152.4) (xy 95.25 152.4)
+			(xy 95.25 152.4) (xy 124.46 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7032,33 +6979,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 166.37) (xy 223.52 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7c855f-4b0b-4b10-9fbd-78a2f8a4cf4e")
-	)
-	(wire
-		(pts
-			(xy 46.99 208.28) (xy 53.34 208.28)
+			(xy 46.99 208.28) (xy 78.74 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ecd2862-931c-42e9-981c-40369e5640c8")
-	)
-	(wire
-		(pts
-			(xy 259.08 229.87) (xy 259.08 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd0633c-73a2-46b7-885b-c0183fe1c659")
 	)
 	(wire
 		(pts
@@ -7082,6 +7009,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 190.5) (xy 185.42 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f8bb7c-1a11-4c0b-8a7f-a18b4382f00d")
+	)
+	(wire
+		(pts
 			(xy 269.24 46.99) (xy 257.81 46.99)
 		)
 		(stroke
@@ -7092,13 +7029,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 217.17) (xy 238.76 217.17)
+			(xy 219.71 217.17) (xy 219.71 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c841d04-37bb-44af-b1f3-58c0e46716e1")
+		(uuid "8d0910e0-129c-41b5-923b-bd565ae161e0")
 	)
 	(wire
 		(pts
@@ -7112,33 +7049,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 207.01) (xy 196.85 219.71)
+			(xy 194.31 180.34) (xy 194.31 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "915cbf9f-240f-42e6-a90f-b80c492b5345")
+		(uuid "963e4f8f-46ff-415a-ae24-4517431c0f69")
 	)
 	(wire
 		(pts
-			(xy 318.77 232.41) (xy 314.96 232.41)
+			(xy 317.5 234.95) (xy 314.96 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98059fa7-d32b-4cfe-935d-922ec2c27ae9")
-	)
-	(wire
-		(pts
-			(xy 58.42 222.25) (xy 78.74 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "982a8056-e0f3-42f3-a0d9-a5ed04ae234c")
 	)
 	(wire
 		(pts
@@ -7149,6 +7076,16 @@
 			(type default)
 		)
 		(uuid "99ed58c0-0e45-4c00-b4c4-564700fadd77")
+	)
+	(wire
+		(pts
+			(xy 317.5 231.14) (xy 361.95 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4aeaf9-6f3c-473f-9be9-04241e5f1caf")
 	)
 	(wire
 		(pts
@@ -7182,7 +7119,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 240.03) (xy 361.95 240.03)
+			(xy 317.5 245.11) (xy 361.95 245.11)
 		)
 		(stroke
 			(width 0)
@@ -7222,6 +7159,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 171.45) (xy 251.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f605dc-460a-4fe4-8cf5-31a598fa88a7")
+	)
+	(wire
+		(pts
 			(xy 40.64 139.7) (xy 34.29 139.7)
 		)
 		(stroke
@@ -7242,7 +7189,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 218.44) (xy 361.95 218.44)
+			(xy 317.5 218.44) (xy 361.95 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7259,36 +7206,6 @@
 			(type default)
 		)
 		(uuid "aa8af5ea-00cb-4a14-86c4-d205aac1274f")
-	)
-	(wire
-		(pts
-			(xy 115.57 152.4) (xy 124.46 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac00329-5272-4149-9d3c-509bef0d6147")
-	)
-	(wire
-		(pts
-			(xy 203.2 227.33) (xy 203.2 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aadf4e6a-3825-40ea-9795-a77e3b3d03a9")
-	)
-	(wire
-		(pts
-			(xy 63.5 208.28) (xy 78.74 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6009d0-8605-46d7-8846-d96539fe0840")
 	)
 	(wire
 		(pts
@@ -7322,23 +7239,13 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 220.98) (xy 314.96 220.98)
+			(xy 317.5 220.98) (xy 314.96 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b597bcc2-719c-45af-b7b4-05448b65b0b4")
-	)
-	(wire
-		(pts
-			(xy 196.85 233.68) (xy 196.85 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c06985-f3ee-4554-9388-b064e91de2ec")
 	)
 	(wire
 		(pts
@@ -7362,6 +7269,36 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 198.12) (xy 113.03 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8713f5-8055-4fa1-a37b-7549f27a6eee")
+	)
+	(wire
+		(pts
+			(xy 199.39 185.42) (xy 219.71 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8dec3e-825e-41c7-b384-1fb5fcc220cf")
+	)
+	(wire
+		(pts
+			(xy 251.46 161.29) (xy 232.41 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff00eac-3e82-4ee3-91a3-70e2ed60f19c")
+	)
+	(wire
+		(pts
 			(xy 120.65 184.15) (xy 120.65 186.69)
 		)
 		(stroke
@@ -7372,43 +7309,33 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 227.33) (xy 265.43 227.33)
+			(xy 232.41 168.91) (xy 232.41 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c654d6e3-1ecd-4e71-8d1b-feba0b0d739f")
+		(uuid "ca5bd48c-0675-4bd9-b3f9-0ae73ba5e44c")
 	)
 	(wire
 		(pts
-			(xy 318.77 228.6) (xy 361.95 228.6)
+			(xy 304.8 208.28) (xy 304.8 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbda0da0-f635-470d-8fb5-a869437bfb3c")
+		(uuid "ce8939c1-d9a4-43a1-9a8e-20a6dd98cc2a")
 	)
 	(wire
 		(pts
-			(xy 265.43 191.77) (xy 269.24 191.77)
+			(xy 96.52 210.82) (xy 100.33 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccd1b96f-001d-48f6-a3b7-5009f6a026be")
-	)
-	(wire
-		(pts
-			(xy 257.81 222.25) (xy 238.76 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d422d544-f614-4e79-b193-4401195d8ea5")
+		(uuid "d91a3adf-68c1-44ba-94da-bfb34068c4dd")
 	)
 	(wire
 		(pts
@@ -7422,16 +7349,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 171.45) (xy 191.77 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da085f2f-4595-4b36-9801-2eeca9eb1500")
-	)
-	(wire
-		(pts
 			(xy 67.31 262.89) (xy 67.31 257.81)
 		)
 		(stroke
@@ -7442,7 +7359,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 210.82) (xy 314.96 210.82)
+			(xy 317.5 208.28) (xy 314.96 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7462,7 +7379,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 220.98) (xy 342.9 232.41)
+			(xy 342.9 220.98) (xy 342.9 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7482,7 +7399,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 220.98) (xy 304.8 232.41)
+			(xy 304.8 220.98) (xy 304.8 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7502,16 +7419,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 208.28) (xy 184.15 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e613ba71-6b35-4973-8176-60ebe21b3eec")
-	)
-	(wire
-		(pts
 			(xy 46.99 261.62) (xy 57.15 261.62)
 		)
 		(stroke
@@ -7522,23 +7429,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 232.41) (xy 257.81 222.25)
+			(xy 234.95 224.79) (xy 232.41 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8de4307-80cc-4104-a47c-dbaa5adc5367")
-	)
-	(wire
-		(pts
-			(xy 213.36 158.75) (xy 215.9 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9d9d8e5-0423-4834-8b6c-51069778a56a")
+		(uuid "e92b0fb9-4bf1-4e90-a17d-54da7516bd4f")
 	)
 	(wire
 		(pts
@@ -7552,16 +7449,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 232.41) (xy 265.43 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec83e087-4309-4fc9-9151-bef027dce131")
-	)
-	(wire
-		(pts
 			(xy 53.34 184.15) (xy 53.34 175.26)
 		)
 		(stroke
@@ -7572,16 +7459,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 212.09) (xy 238.76 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f29f0f6a-1ec5-4c28-96a0-fee6da32fbd5")
-	)
-	(wire
-		(pts
 			(xy 264.16 151.13) (xy 264.16 146.05)
 		)
 		(stroke
@@ -7589,26 +7466,6 @@
 			(type default)
 		)
 		(uuid "f2aedfd7-308f-4a1e-8502-a3d3f5570bc0")
-	)
-	(wire
-		(pts
-			(xy 196.85 245.11) (xy 196.85 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c5a451-cbba-4239-981d-36f11f74256d")
-	)
-	(wire
-		(pts
-			(xy 176.53 158.75) (xy 191.77 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5dea540-ea82-4cab-99c0-2453f7b137fb")
 	)
 	(wire
 		(pts
@@ -7660,38 +7517,8 @@
 		)
 		(uuid "fa04452c-7622-4725-8941-d8a618bbfa2e")
 	)
-	(wire
-		(pts
-			(xy 304.8 210.82) (xy 304.8 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa8e662-cbae-4f45-8194-070b36740acb")
-	)
-	(label "Audio+"
-		(at 176.53 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07aa7dad-8189-4401-b573-53f4f41318ba")
-	)
-	(label "Audio-"
-		(at 168.91 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e62651e-bf9d-41ec-9181-bec058d143ae")
-	)
 	(label "ROW1"
-		(at 336.55 218.44 0)
+		(at 335.28 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7730,15 +7557,15 @@
 		)
 		(uuid "279b0226-7809-443b-970d-6a08fceded52")
 	)
-	(label "headphone_enable"
-		(at 203.2 198.12 0)
+	(label "Audio-"
+		(at 194.31 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "369098bf-bc27-4558-b89f-c78b77b3ff37")
+		(uuid "38b3c01b-8b13-453f-90a2-347dcca99995")
 	)
 	(label "spk_out-"
 		(at 259.08 140.97 0)
@@ -7760,6 +7587,16 @@
 		)
 		(uuid "3a1308b0-7503-4ff3-8733-01ca4d58bd67")
 	)
+	(label "spk_out+"
+		(at 245.11 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f114464-b12f-4dd2-9c06-ce439abc2f62")
+	)
 	(label "Net-(D8-K)"
 		(at 361.95 142.24 0)
 		(effects
@@ -7770,15 +7607,15 @@
 		)
 		(uuid "5605bbb3-557c-486f-9601-d1c2ecf2f9a3")
 	)
-	(label "Audio-"
-		(at 176.53 171.45 0)
+	(label "Audio+"
+		(at 173.99 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "588500af-4f3d-47c6-b55a-0ac4254e11b8")
+		(uuid "59642e84-fee5-4677-a008-b872bc74336c")
 	)
 	(label "Net-(D5-VN)"
 		(at 124.46 152.4 270)
@@ -7791,7 +7628,7 @@
 		(uuid "5d6426b3-6de7-4169-80ee-0d48596488e7")
 	)
 	(label "ROW2"
-		(at 336.55 228.6 0)
+		(at 335.28 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7799,16 +7636,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e447853-9999-4a0e-8843-2eec58670992")
-	)
-	(label "OUT_R"
-		(at 196.85 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6527c699-821a-457a-8213-94154728520d")
 	)
 	(label "SW"
 		(at 31.75 158.75 0)
@@ -7831,7 +7658,7 @@
 		(uuid "70ca5544-2732-4dfd-90c0-18901b6665ab")
 	)
 	(label "ROW3"
-		(at 336.55 240.03 0)
+		(at 335.28 245.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7860,16 +7687,6 @@
 		)
 		(uuid "a52c4b3c-df0e-41ed-90cf-ded47d8e3c31")
 	)
-	(label "OUT_L"
-		(at 250.19 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a952dbd6-39e4-4e2d-9b2e-5e2f2c6a4f7f")
-	)
 	(label "Common"
 		(at 60.96 143.51 0)
 		(effects
@@ -7890,6 +7707,16 @@
 		)
 		(uuid "b2644ec3-9942-4799-abe3-8371217a6cbb")
 	)
+	(label "spk_out-"
+		(at 245.11 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3842454-efca-4976-a9a1-da398eac06ed")
+	)
 	(label "AM"
 		(at 95.25 184.15 0)
 		(effects
@@ -7900,45 +7727,25 @@
 		)
 		(uuid "cc473f22-fe99-4bf3-b495-63ee8941d432")
 	)
-	(label "spk_out+"
-		(at 243.84 166.37 0)
+	(label "SW"
+		(at 96.52 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d1865597-8dd2-4877-a2dd-d63c0a3b5e2c")
+		(uuid "dc3b50f3-06f9-4004-8d9d-8d00263b1e97")
 	)
-	(label "OUT_L"
-		(at 196.85 201.93 0)
+	(label "AM"
+		(at 130.81 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d6f03370-19d3-45f2-973a-9df6609eb60f")
-	)
-	(label "Audio+"
-		(at 184.15 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db8a2069-401c-491a-b59f-f256da2cfc28")
-	)
-	(label "spk_out-"
-		(at 243.84 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd3c3adf-e0c2-4e23-821e-e690d85d55d6")
+		(uuid "dfa4c248-2c86-48d8-a6b2-90f81806270e")
 	)
 	(label "Audio-"
 		(at 171.45 67.31 0)
@@ -7949,16 +7756,6 @@
 			(justify left bottom)
 		)
 		(uuid "e554adf7-110b-4c70-9c14-48fa833fc0cf")
-	)
-	(label "OUT_R"
-		(at 250.19 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e80bea0e-8e21-4c64-a397-7553bf80fb8e")
 	)
 	(label "ROW1"
 		(at 200.66 67.31 0)
@@ -7989,6 +7786,30 @@
 			(justify left bottom)
 		)
 		(uuid "fd6b2f4a-abd8-4a8c-aaa9-1a8bbd7e8d68")
+	)
+	(global_label "Gain1"
+		(shape input)
+		(at 257.81 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0065b35e-7f0e-40c2-a4af-906cafb2bb68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.1775 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "SDA"
 		(shape input)
@@ -8038,6 +7859,30 @@
 			)
 		)
 	)
+	(global_label "Gain0"
+		(shape input)
+		(at 219.71 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1beaf808-f85d-4248-9d48-dddf52cece69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3425 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SCLK_OLED"
 		(shape input)
 		(at 307.34 144.78 0)
@@ -8075,6 +7920,30 @@
 		(uuid "2592d787-b326-4cea-851b-fb15a66a2fa3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 304.8 189.0267 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Gain0"
+		(shape input)
+		(at 257.81 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d2a58b2-cb53-48a1-844c-241f73213095")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.1775 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8182,6 +8051,30 @@
 			)
 		)
 	)
+	(global_label "headphone_enable"
+		(shape input)
+		(at 222.25 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4936a04b-b224-4021-b0be-f50c203438d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.7876 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FM_ANT"
 		(shape input)
 		(at 81.28 208.28 0)
@@ -8227,30 +8120,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "spk_Enable"
-		(shape input)
-		(at 223.52 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "590ea3a3-16e0-4e40-a122-c4a4001bf474")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.0122 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -8446,6 +8315,54 @@
 			)
 		)
 	)
+	(global_label "headphone_enable"
+		(shape input)
+		(at 200.66 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6750f48-32ab-4897-8b41-2f16da58740e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.1976 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Gain1"
+		(shape input)
+		(at 219.71 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb28e8fd-2b8f-4773-bd6f-413cd2139232")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3425 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Encoder 1"
 		(shape input)
 		(at 31.75 53.34 270)
@@ -8542,30 +8459,6 @@
 			)
 		)
 	)
-	(global_label "headphone_enable"
-		(shape input)
-		(at 257.81 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9567b69-a630-403e-82b4-92d9020bc8b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.2724 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Encoder 2"
 		(shape input)
 		(at 257.81 52.07 0)
@@ -8603,30 +8496,6 @@
 		(uuid "ca71b8cc-4a79-4f0d-88a7-4e719ae46b91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 342.9 187.7567 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "spk_Enable"
-		(shape input)
-		(at 257.81 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb41e127-4d82-4ad3-8684-41d0e83725ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.3178 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8807,84 +8676,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 257.81 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01e73a5a-e4ad-4bde-89dc-a0849d8b3b59")
-		(property "Reference" "#PWR027"
-			(at 257.81 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43ed8520-7229-40c9-a32e-b2d3d2447ef5")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 57.15 262.89 0)
 		(unit 1)
@@ -8957,6 +8748,88 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 232.41 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08cfb482-a4d7-4f0e-b8bc-6af6c3c2bf63")
+		(property "Reference" "C1"
+			(at 236.22 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 236.22 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 233.3752 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13749492-2793-4e04-9bae-1763999998bd")
+		)
+		(pin "2"
+			(uuid "e669bf1e-e3ad-4e10-ae06-c02f8b4352ad")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9041,8 +8914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 261.62 191.77 90)
+		(lib_id "Amplifier_Audio:TPA6132A2RTE")
+		(at 232.41 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9051,29 +8924,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0d510156-37dc-46fc-b8df-26da74d3b3bb")
-		(property "Reference" "C7"
-			(at 261.62 184.15 90)
+		(uuid "0b0bbc9b-da66-4835-bad7-17ac525d0f67")
+		(property "Reference" "U4"
+			(at 234.5533 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 261.62 186.69 90)
+		(property "Value" "TPA6132A2RTE"
+			(at 234.5533 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 265.43 190.8048 0)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
+			(at 234.95 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,8 +8958,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 261.62 191.77 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpa6132a2.pdf"
+			(at 224.79 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9094,8 +8969,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 261.62 191.77 0)
+		(property "Description" "25mW, Stereo, DirectPath Audio Amplifier, WQFN-16"
+			(at 232.41 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9104,17 +8979,62 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "5"
+			(uuid "46bdee8f-e6c0-4c34-aa57-5ed25107c1dd")
+		)
+		(pin "14"
+			(uuid "e348e37d-5c00-4c15-852b-d8f4419083dc")
+		)
+		(pin "12"
+			(uuid "564925f2-ff22-4881-810b-02912b122ad3")
+		)
+		(pin "4"
+			(uuid "5d20b530-bb97-49d3-9682-0b178944d3fb")
+		)
+		(pin "10"
+			(uuid "40948516-0fed-4a9d-8f88-2daa2dca0612")
 		)
 		(pin "1"
-			(uuid "c941320d-1beb-4869-8901-37239ca54b68")
+			(uuid "954c91af-7cb3-4889-ab78-928183ce640b")
+		)
+		(pin "8"
+			(uuid "8f18d073-7504-4093-8dec-63e431219952")
 		)
 		(pin "2"
-			(uuid "ccb67a46-bf3c-4450-b9ee-9c9d9454ec72")
+			(uuid "84ea44f6-fefa-4d8f-9862-eb9bfd2cfb66")
+		)
+		(pin "3"
+			(uuid "f23fdc71-7184-4061-b687-23b7a171f0ca")
+		)
+		(pin "9"
+			(uuid "99ae5116-f392-43f2-ab3f-37a3b4b5fdb5")
+		)
+		(pin "13"
+			(uuid "b7c50b9c-e097-4a80-bc8d-4d8cb1d9e632")
+		)
+		(pin "7"
+			(uuid "5e0272dc-5a65-43eb-a757-082ec9fe6561")
+		)
+		(pin "6"
+			(uuid "33a4dc13-9dc0-42c2-9fe9-368a0be1ad0f")
+		)
+		(pin "15"
+			(uuid "43a3530c-6ff3-4c3e-9c14-6eddc6a743e1")
+		)
+		(pin "11"
+			(uuid "a356ee9a-ada1-4d1c-9438-f66f1e982297")
+		)
+		(pin "17"
+			(uuid "73048498-ba03-430d-93cc-d6a81ad42a1a")
+		)
+		(pin "16"
+			(uuid "4bc2fb0b-2542-40d0-9c20-3775c9404533")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "C7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9203,214 +9123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 318.77 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dc99586-a057-43dc-9009-f8095f5bdc51")
-		(property "Reference" "D3"
-			(at 321.31 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 321.31 226.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 323.215 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 318.77 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 318.77 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 318.77 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 318.77 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5d16cf9-24e8-45ca-a2de-eb0c316ea0d5")
-		)
-		(pin "1"
-			(uuid "e0aa5c5b-bb64-4f48-a59d-58d40b81834a")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 361.95 236.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e99cc67-371d-4a54-80de-c00e53f0076b")
-		(property "Reference" "D9"
-			(at 364.49 234.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 364.49 237.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 366.395 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 361.95 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 361.95 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 361.95 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 361.95 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7d7d2624-12df-498f-963d-d4bc54021516")
-		)
-		(pin "1"
-			(uuid "cc73f447-821e-4d41-8de4-f9f499ee107e")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 76.2 52.07 0)
 		(unit 1)
@@ -9490,8 +9202,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 309.88 210.82 0)
+		(lib_id "Device:C")
+		(at 207.01 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9500,9 +9212,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "15bab6fd-529d-4e3c-a8cc-491402cbbe21")
-		(property "Reference" "SW2"
-			(at 309.88 203.2 0)
+		(uuid "13cce115-ad1e-4692-845a-4eeb53df6689")
+		(property "Reference" "C5"
+			(at 207.01 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9511,8 +9223,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 309.88 205.74 0)
+		(property "Value" "0.47uF"
+			(at 207.01 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9521,8 +9233,8 @@
 				)
 			)
 		)
-		(property "Footprint" "FSM8JH:SW_FSM8JH"
-			(at 309.88 205.74 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 210.82 181.9148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9533,7 +9245,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 205.74 0)
+			(at 207.01 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f39638d6-edfc-4d23-a34b-0635fc0c3fbd")
+		)
+		(pin "2"
+			(uuid "3c72105c-e199-41c8-ba43-620e463f0ccf")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 309.88 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15bab6fd-529d-4e3c-a8cc-491402cbbe21")
+		(property "Reference" "SW2"
+			(at 309.88 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 309.88 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FSM8JH:SW_FSM8JH"
+			(at 309.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9544,7 +9336,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 309.88 210.82 0)
+			(at 309.88 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,86 +9436,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 195.58 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bc2760e-6d4c-43a0-9135-207a478ea47a")
-		(property "Reference" "C5"
-			(at 195.58 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 195.58 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 199.39 157.7848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ff65f76-24d6-48d3-9cf1-a36b458857fa")
-		)
-		(pin "2"
-			(uuid "0f171ff5-293a-472b-a7b4-8a4517fe1d9d")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9891,190 +9603,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 361.95 224.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "240d2216-af8b-4323-bd1d-6d6e3994d57b")
-		(property "Reference" "D8"
-			(at 364.49 223.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 364.49 226.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 366.395 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 361.95 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 361.95 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 361.95 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 361.95 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9e7409f4-ac13-4fee-98cc-6bc1383eb46b")
-		)
-		(pin "1"
-			(uuid "7d470396-e139-4edc-a617-928bd7a4264c")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 237.49 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2448ff6f-b61e-4cb2-b276-9a86f3dfdd69")
-		(property "Reference" "C1"
-			(at 237.49 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 237.49 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 241.3 148.8948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 237.49 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f7422c4-25a7-4958-8b45-e4c986f28241")
-		)
-		(pin "2"
-			(uuid "eff4a7ab-4441-4858-b14e-339e9f4f25f0")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 91.44 184.15 270)
 		(unit 1)
@@ -10149,90 +9677,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:CM1213A-01SO")
-		(at 110.49 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2687762f-5cd2-4b23-83d9-2c1c7782607f")
-		(property "Reference" "D5"
-			(at 110.1725 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CM1213A-01SO"
-			(at 110.1725 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 111.76 156.718 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF"
-			(at 108.585 150.368 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Channel ESD Protection Array"
-			(at 110.49 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "6a6aca5f-cecf-49a7-92f7-9770b3e3fecb")
-		)
-		(pin "1"
-			(uuid "ca83ce8a-1465-49ae-8174-efe95608d4c0")
-		)
-		(pin "2"
-			(uuid "a6c6456b-9ca9-4a4a-a8e1-07287462efa7")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10317,8 +9761,235 @@
 		)
 	)
 	(symbol
+		(lib_id "1N4148:1N4148")
+		(at 317.5 213.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db8ca44-aba0-431e-bc10-d7d110a10cbd")
+		(property "Reference" "Diode1"
+			(at 320.04 212.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 320.04 214.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1N4148:DIOAD753W49L380D172B"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.91mm"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "AXIAL LEAD-2 ON Semiconductor"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1N4148"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Diode Standard 75V 200mA Surface Mount SOD-523F"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 317.5 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "21619af6-4cad-43e4-91f7-6fff3494de29")
+		)
+		(pin "K"
+			(uuid "7bb5f06b-901e-41eb-84b7-5bfc49748b76")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "Diode1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 347.98 210.82 0)
+		(at 347.98 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10329,7 +10000,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ff4f24c-db4a-4251-9d3e-af0aae26325d")
 		(property "Reference" "SW5"
-			(at 347.98 203.2 0)
+			(at 347.98 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10339,7 +10010,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 347.98 205.74 0)
+			(at 347.98 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10349,7 +10020,7 @@
 			)
 		)
 		(property "Footprint" "FSM8JH:SW_FSM8JH"
-			(at 347.98 205.74 0)
+			(at 347.98 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10360,7 +10031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 205.74 0)
+			(at 347.98 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10371,7 +10042,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 347.98 210.82 0)
+			(at 347.98 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10632,84 +10303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39fd2737-2290-4f3c-b5e3-a671a8e29bcb")
-		(property "Reference" "#PWR015"
-			(at 226.06 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "358270f4-6871-4963-958c-e6b12d15edfb")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 139.7 46.99 270)
 		(unit 1)
@@ -10946,86 +10539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 210.82 158.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4550ac97-c0c9-4634-a581-cf625c8a5cc9")
-		(property "Reference" "R1"
-			(at 210.82 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 210.82 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 210.82 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 210.82 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "634676a5-f8ed-40a4-9b66-4484b401bfe1")
-		)
-		(pin "1"
-			(uuid "8b03e8cd-2815-44fd-a0ee-3f5d74beb368")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 262.89 0)
 		(unit 1)
@@ -11098,84 +10611,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 233.68 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47b6f28b-caf9-4486-9741-da4081849d3b")
-		(property "Reference" "#PWR013"
-			(at 233.68 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 233.68 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 233.68 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9eb60454-f467-4398-997a-e45a324ac9a0")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11255,86 +10690,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 179.07 227.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bf17395-781a-4308-bb8d-7aaf2e98ac30")
-		(property "Reference" "C9"
-			(at 179.07 219.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.47uF"
-			(at 179.07 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 182.88 226.3648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 179.07 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb3aeb51-098b-4811-a762-807652bbcc6f")
-		)
-		(pin "2"
-			(uuid "a814adf6-0696-4784-bbcb-6883c423efa1")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11612,110 +10967,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 318.77 236.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52e2c9d3-2859-4244-be2f-de6dd8654d7f")
-		(property "Reference" "D4"
-			(at 321.31 234.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 321.31 237.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 323.215 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 318.77 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 318.77 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 318.77 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 318.77 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "24cfb9d3-2ba8-4c60-b036-76de64123098")
-		)
-		(pin "1"
-			(uuid "eb328bb4-2f3c-4d96-97df-c3f00a16c169")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 170.18 38.1 0)
 		(unit 1)
@@ -11788,6 +11039,88 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 232.41 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5616a639-4112-4951-a3f8-513a57f1ddfd")
+		(property "Reference" "C7"
+			(at 236.22 219.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 236.22 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 233.3752 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2e783f2-a984-4d75-a133-2807aeda1e63")
+		)
+		(pin "2"
+			(uuid "196980bf-5baf-4410-a379-30a4586666ed")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11870,84 +11203,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 238.76 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58bcefc0-6d2c-4904-a23f-23d3c41bb8b6")
-		(property "Reference" "#PWR030"
-			(at 238.76 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c755ef2-a9bb-4883-aafb-09c69f1b1141")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12105,6 +11360,233 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1N4148:1N4148")
+		(at 361.95 240.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cca1b83-97f6-458e-8edf-5e88e46a404b")
+		(property "Reference" "Diode6"
+			(at 364.49 238.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 364.49 241.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1N4148:DIOAD753W49L380D172B"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.91mm"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "AXIAL LEAD-2 ON Semiconductor"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1N4148"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Diode Standard 75V 200mA Surface Mount SOD-523F"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 361.95 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "b221d2c7-7a35-4840-951e-5e7a4456e093")
+		)
+		(pin "K"
+			(uuid "2ddc853b-0668-4f6c-a67c-6eab53f129a4")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "Diode6")
 					(unit 1)
 				)
 			)
@@ -12282,6 +11764,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60adffc5-0d25-4ebc-b921-6ca619ba64ea")
+		(property "Reference" "#PWR030"
+			(at 113.03 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 224.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82e0abaa-a253-4380-89a6-5441936874b9")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 83.82 41.91 0)
 		(unit 1)
@@ -12362,8 +11923,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 269.24 191.77 0)
+		(lib_id "Device:C")
+		(at 259.08 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12372,30 +11933,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "69c3a23e-24ae-499c-9e66-4c2f8869c4ee")
-		(property "Reference" "#PWR028"
-			(at 269.24 195.58 0)
-			(hide yes)
+		(uuid "6e7f5a78-4f76-43eb-880b-0a67dbdcb230")
+		(property "Reference" "C2"
+			(at 262.89 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 269.24 186.69 0)
+		(property "Value" "1uF"
+			(at 262.89 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 269.24 191.77 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 260.0452 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12406,7 +11968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 191.77 0)
+			(at 259.08 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12416,8 +11978,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 269.24 191.77 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 259.08 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,20 +11990,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "903c75ef-0b90-4f64-98bb-90db992b5f1e")
+			(uuid "c275487e-5f68-4f18-87cf-d242c0826175")
+		)
+		(pin "2"
+			(uuid "5dd2e3ff-9f7c-4fed-b5ff-b41e03017503")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR028")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 318.77 214.63 90)
+		(lib_id "power:GND")
+		(at 195.58 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12450,31 +12015,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72c0c590-7ed6-47cc-b9ff-76c4e2013bc4")
-		(property "Reference" "D2"
-			(at 321.31 213.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 321.31 215.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 323.215 214.63 0)
+		(uuid "709aac5c-808e-415a-a7a7-5e20c31d6ac3")
+		(property "Reference" "#PWR023"
+			(at 195.58 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12484,8 +12027,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 318.77 214.63 0)
+		(property "Value" "GND"
+			(at 195.58 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12495,8 +12048,8 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 318.77 214.63 0)
+		(property "Datasheet" ""
+			(at 195.58 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12506,8 +12059,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 318.77 214.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12516,28 +12069,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 318.77 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e2be5104-2fdf-4761-9064-599e0d055cf6")
 		)
 		(pin "1"
-			(uuid "d257bf58-e6fc-4eb0-bafc-29dc532c09a0")
+			(uuid "5e082dd1-05d5-4251-9deb-b60ae294c5fe")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D2")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12626,8 +12165,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 187.96 219.71 90)
+		(lib_id "1N4148:1N4148")
+		(at 361.95 213.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12636,29 +12175,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "73064038-6726-4e7c-b867-a11775c8d447")
-		(property "Reference" "C8"
-			(at 187.96 212.09 90)
+		(uuid "79fa52bb-f083-4fe9-863c-04e994dcccdc")
+		(property "Reference" "Diode3"
+			(at 364.49 212.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
-			(at 187.96 214.63 90)
+		(property "Value" "1N4148"
+			(at 364.49 214.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 191.77 218.7448 0)
+		(property "Footprint" "1N4148:DIOAD753W49L380D172B"
+			(at 361.95 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12666,10 +12207,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 219.71 0)
+			(at 361.95 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,8 +12221,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 219.71 0)
+		(property "Description" ""
+			(at 361.95 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12690,16 +12232,160 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "45297bea-dc9b-44ec-8ecd-44dc83717451")
+		(property "MF" "onsemi"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "2"
-			(uuid "39d7f139-0e8c-429e-9eca-73642349140d")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.91mm"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "AXIAL LEAD-2 ON Semiconductor"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1N4148"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Diode Standard 75V 200mA Surface Mount SOD-523F"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 361.95 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "11aca0b7-da17-4489-b8c6-cdc624c875f0")
+		)
+		(pin "K"
+			(uuid "6fdf9dd2-1fe1-4dd4-abf0-2d632447ad2c")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "C8")
+					(reference "Diode3")
 					(unit 1)
 				)
 			)
@@ -12788,8 +12474,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 241.3 149.86 0)
+		(lib_id "1N4148:1N4148")
+		(at 361.95 226.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12798,9 +12484,43 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c313d02-dfa9-4fd9-8349-d9edb84bb5ee")
-		(property "Reference" "#PWR016"
-			(at 241.3 156.21 0)
+		(uuid "7dc1e5e9-1f0c-440a-b7be-1fea2d47f996")
+		(property "Reference" "Diode4"
+			(at 364.49 224.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 364.49 227.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1N4148:DIOAD753W49L380D172B"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12810,8 +12530,201 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 241.3 154.94 0)
+		(property "Description" ""
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.91mm"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "AXIAL LEAD-2 ON Semiconductor"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1N4148"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Diode Standard 75V 200mA Surface Mount SOD-523F"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 361.95 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "b46d06ad-f28c-41ba-a421-d28b9cc23ab4")
+		)
+		(pin "K"
+			(uuid "c31e3397-47ad-4491-9a8d-ebaa72f3cba6")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "Diode4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 229.87 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e70611b-a51f-4e3e-a061-a881ccdf8ae8")
+		(property "Reference" "#PWR013"
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 229.87 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12821,7 +12734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 149.86 0)
+			(at 229.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12832,7 +12745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 149.86 0)
+			(at 229.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12842,8 +12755,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 229.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,12 +12767,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca7c4568-3651-4f80-86d9-ad59071af3aa")
+			(uuid "d745a266-ba34-445c-9d41-c3e1d5cb0a84")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -13102,85 +13015,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99005103-086e-4c34-b039-9398ffae948d")
-		(property "Reference" "#PWR019"
-			(at 110.49 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 158.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85ed7b0f-9b9e-41a8-b9da-fdab2d132c35")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13787,7 +13621,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 347.98 232.41 0)
+		(at 347.98 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13798,7 +13632,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab001df2-5c2c-447e-9c35-aa1144907fcc")
 		(property "Reference" "SW7"
-			(at 347.98 224.79 0)
+			(at 347.98 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13808,7 +13642,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 347.98 227.33 0)
+			(at 347.98 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13818,7 +13652,7 @@
 			)
 		)
 		(property "Footprint" "FSM8JH:SW_FSM8JH"
-			(at 347.98 227.33 0)
+			(at 347.98 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13829,7 +13663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 227.33 0)
+			(at 347.98 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13840,7 +13674,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 347.98 232.41 0)
+			(at 347.98 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13860,110 +13694,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 361.95 214.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b03555ab-567e-44c7-af59-a1ba1a666832")
-		(property "Reference" "D7"
-			(at 364.49 213.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 364.49 215.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 366.395 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 361.95 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 361.95 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 361.95 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 361.95 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5015d223-2bd1-499b-bdcf-8b0106432a3b")
-		)
-		(pin "1"
-			(uuid "db5e5a49-0acb-42c4-8a3d-5447f5b37f8d")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14052,8 +13782,93 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 270.51 229.87 180)
+		(lib_id "Power_Protection:PRTR5V0U2X")
+		(at 113.03 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2782a3f-fa67-4053-87be-498834b1ccf2")
+		(property "Reference" "D10"
+			(at 127.254 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PRTR5V0U2X"
+			(at 127.254 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 114.554 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
+			(at 114.554 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"
+			(at 113.03 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18c585d7-5c9c-439c-b43f-77f35d3b3d22")
+		)
+		(pin "2"
+			(uuid "fcd87c44-4ead-45ab-b2bd-84efcae85af6")
+		)
+		(pin "3"
+			(uuid "b797d04f-e0fc-4e17-b1f6-f8448c2fdc70")
+		)
+		(pin "4"
+			(uuid "ff6cd61b-e14d-4c8b-b726-a4ccab5d0427")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1N4148:1N4148")
+		(at 317.5 226.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14062,31 +13877,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6211659-f03b-4992-8994-ccd41851474f")
-		(property "Reference" "J1"
-			(at 278.13 227.9649 0)
+		(uuid "b3a5d189-7e59-475e-85a4-614ac1c05af4")
+		(property "Reference" "Diode2"
+			(at 320.04 224.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Headset"
-			(at 278.13 230.5049 0)
+		(property "Value" "1N4148"
+			(at 320.04 227.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
-			(at 270.51 229.87 0)
+		(property "Footprint" "1N4148:DIOAD753W49L380D172B"
+			(at 317.5 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14094,10 +13909,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 229.87 0)
+			(at 317.5 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14107,8 +13923,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 270.51 229.87 0)
+		(property "Description" ""
+			(at 317.5 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14118,19 +13934,160 @@
 				)
 			)
 		)
-		(pin "R"
-			(uuid "47f2d493-47a0-4380-a031-0d3f19649472")
+		(property "MF" "onsemi"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "S"
-			(uuid "1db702a6-e72c-4e90-9714-936b9a2b54a1")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.91mm"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "T"
-			(uuid "788b9889-1b9f-4f23-adcd-18768c5a5597")
+		(property "Package" "AXIAL LEAD-2 ON Semiconductor"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1N4148"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Diode Standard 75V 200mA Surface Mount SOD-523F"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "3eaeedf4-2d45-4db7-9d9b-b0f983b18938")
+		)
+		(pin "K"
+			(uuid "e582c9dd-975f-4d1b-bc07-6056ae65ebca")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "J1")
+					(reference "Diode2")
 					(unit 1)
 				)
 			)
@@ -14298,88 +14255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 196.85 204.47 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "becbe9d9-37bc-47b3-803a-808d3d15ccc5")
-		(property "Reference" "R9"
-			(at 199.39 203.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20k"
-			(at 199.39 205.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 196.85 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7bbce5c6-9b22-4761-84f0-262fff3d4d44")
-		)
-		(pin "2"
-			(uuid "004372b1-e4b8-43e2-9426-16b11e6341b8")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 78.74 215.9 0)
 		(unit 1)
@@ -14462,8 +14337,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 196.85 236.22 180)
+		(lib_id "power:GND")
+		(at 199.39 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14471,32 +14346,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1da6b1c-275c-46ed-b052-d0bcc2c1523d")
-		(property "Reference" "R8"
-			(at 199.39 234.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "20k"
-			(at 199.39 237.4899 0)
+		(uuid "c5ac6a77-de16-42fe-bb93-1cbf9945777f")
+		(property "Reference" "#PWR027"
+			(at 199.39 191.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 236.22 0)
+		(property "Value" "GND"
+			(at 203.2 187.198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14507,7 +14380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 236.22 0)
+			(at 199.39 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14517,8 +14390,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 196.85 236.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14529,23 +14402,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a4228aa-865b-4357-bcf3-2d448d6f367f")
-		)
-		(pin "2"
-			(uuid "bc54c35a-74aa-4272-95e9-b7d36b615250")
+			(uuid "6f88dc85-605c-4e2f-aabf-802a0f501324")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "R8")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Audio:PAM8302AAY")
-		(at 233.68 171.45 0)
+		(lib_id "power:GND")
+		(at 251.46 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14554,31 +14424,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c255031e-1d45-467d-9dbb-c815adb406d5")
-		(property "Reference" "U3"
-			(at 235.8233 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PAM8302AAY"
-			(at 235.8233 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
-			(at 233.68 171.45 0)
+		(uuid "c6dc9619-1dcb-401b-a547-00f03664a235")
+		(property "Reference" "#PWR028"
+			(at 251.46 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14588,9 +14436,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf"
-			(at 233.68 171.45 0)
-			(hide yes)
+		(property "Value" "GND"
+			(at 251.46 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14599,84 +14446,8 @@
 				)
 			)
 		)
-		(property "Description" "2.5W Filterless Class-D Mono Audio Amplifier, DFN-8"
-			(at 233.68 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "923c2fdf-c0a1-4f47-9a64-64001feabec2")
-		)
-		(pin "3"
-			(uuid "db36806b-f749-40c1-9af3-cce731f4b1a3")
-		)
-		(pin "2"
-			(uuid "3bdd158f-8ee0-4b75-8518-912092031178")
-		)
-		(pin "8"
-			(uuid "d03c8afa-89bc-4755-b882-bab4e62d59cd")
-		)
-		(pin "1"
-			(uuid "530b30c2-342c-4de5-80a3-9adf47dc5278")
-		)
-		(pin "4"
-			(uuid "dab4b1cf-7998-4507-a754-09a8eb1ba8dd")
-		)
-		(pin "5"
-			(uuid "e78bd254-ed9c-4ce5-a093-4f81df207288")
-		)
-		(pin "7"
-			(uuid "1bd035cb-b084-49ce-b481-38e271d93928")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 194.31 219.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2814a93-e69f-4b6e-866e-6c8f55cd7a2e")
-		(property "Reference" "R4"
-			(at 194.31 214.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 194.31 217.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 194.31 219.71 0)
+		(property "Footprint" ""
+			(at 251.46 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14687,7 +14458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 219.71 0)
+			(at 251.46 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14697,8 +14468,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 194.31 219.71 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14709,95 +14480,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b6c1f0f-384f-4d35-bcdf-20aac102885a")
-		)
-		(pin "2"
-			(uuid "75543a5a-1df0-41d4-ae15-095adafd2f93")
+			(uuid "48a11fb5-779d-4da2-aa19-b0119c63f236")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 210.82 171.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6a0c811-68a2-4084-96c8-b30f8b9c8f44")
-		(property "Reference" "R2"
-			(at 210.82 166.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 210.82 168.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 210.82 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 210.82 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7cf963d5-c6cc-4275-bd64-72dc3b9086bf")
-		)
-		(pin "1"
-			(uuid "ddeb5b11-ba16-4492-a124-c163f92f7e93")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "R2")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14958,6 +14646,233 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1N4148:1N4148")
+		(at 317.5 240.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ce00be-e1b0-40fe-87da-66ddc3eccc18")
+		(property "Reference" "Diode5"
+			(at 320.04 238.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 320.04 241.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1N4148:DIOAD753W49L380D172B"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "onsemi"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.91mm"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "AXIAL LEAD-2 ON Semiconductor"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=eda"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N4148/Onsemi/view-part/?ref=snap"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "1N4148"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Diode Standard 75V 200mA Surface Mount SOD-523F"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 317.5 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "A"
+			(uuid "67c3e55a-153e-4377-b7b1-ee6b0e891f04")
+		)
+		(pin "K"
+			(uuid "ef96bc94-776a-410d-a01c-6e5ff99d4234")
+		)
+		(instances
+			(project "Akash Chowa DX"
+				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
+					(reference "Diode5")
 					(unit 1)
 				)
 			)
@@ -15205,7 +15120,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 171.45 90)
+		(at 189.23 190.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15216,7 +15131,7 @@
 		(fields_autoplaced yes)
 		(uuid "daad9a73-9bfb-426b-8763-64f0ab3a7a2b")
 		(property "Reference" "C6"
-			(at 195.58 163.83 90)
+			(at 189.23 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15225,8 +15140,8 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 195.58 166.37 90)
+		(property "Value" "0.47uF"
+			(at 189.23 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15236,7 +15151,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 199.39 170.4848 0)
+			(at 193.04 189.5348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15247,7 +15162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 171.45 0)
+			(at 189.23 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15258,7 +15173,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 195.58 171.45 0)
+			(at 189.23 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15357,190 +15272,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM4910MM:LM4910MM")
-		(at 220.98 219.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db831203-2308-49f0-9ae9-c1252c7dfbbb")
-		(property "Reference" "U4"
-			(at 220.98 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM4910MM"
-			(at 220.98 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LM4910MM:SOP65P490X110-8N"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "35-mW, stereo, analog input headphone amplifier"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "VSSOP-8 Texas Instruments"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM4910MM/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "LM4910MM/NOPB"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM4910MM/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 220.98 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "5dd8bd10-cbb8-40db-b52a-8ee4f64e20af")
-		)
-		(pin "7"
-			(uuid "8e9c6665-c284-48a2-a316-468f60bb3e11")
-		)
-		(pin "2"
-			(uuid "063e8bc6-1655-4e13-b0d5-7dbdedc6794b")
-		)
-		(pin "6"
-			(uuid "a3b99e2d-31f2-41bd-a969-103cda060baa")
-		)
-		(pin "5"
-			(uuid "09b26ccf-a296-40d8-a330-f65d4a65a0bf")
-		)
-		(pin "8"
-			(uuid "58e32cd0-e8ef-4216-86ff-bc075743c3b7")
-		)
-		(pin "3"
-			(uuid "d09bcdc8-da1d-4d4e-971e-ab566305942a")
-		)
-		(pin "4"
-			(uuid "7d7ec542-6634-41f4-88c8-fecd42d9f74d")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15706,8 +15437,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 229.87 149.86 90)
+		(lib_id "power:GND")
+		(at 227.33 226.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15716,9 +15447,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e34cea1c-f95f-4a8c-b5ad-48f54d1990b8")
-		(property "Reference" "C2"
-			(at 229.87 142.24 90)
+		(uuid "e48ad26e-567d-4a63-a96b-6a4e7090e23a")
+		(property "Reference" "#PWR022"
+			(at 227.33 232.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15727,8 +15459,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 229.87 144.78 90)
+		(property "Value" "GND"
+			(at 227.33 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15737,8 +15469,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 233.68 148.8948 0)
+		(property "Footprint" ""
+			(at 227.33 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15749,7 +15481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 149.86 0)
+			(at 227.33 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15759,88 +15491,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 229.87 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64959d43-9f9f-4b49-a1e9-312b07176e5a")
-		)
-		(pin "2"
-			(uuid "edd69d2d-eac8-42b4-af51-c49109140c78")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 194.31 227.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e45b8e3b-2f76-4eca-a50f-f9a1fd01f9b8")
-		(property "Reference" "R6"
-			(at 194.31 222.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 194.31 224.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 194.31 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 194.31 227.33 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15851,15 +15503,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b1f16ae-a750-4601-8b15-7b2638705904")
-		)
-		(pin "2"
-			(uuid "514dea91-25c0-4e7f-bb2b-fcf6e9b5e0dc")
+			(uuid "42f7499a-42fb-43ef-8989-3bf93c6c7218")
 		)
 		(instances
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "R6")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16096,7 +15745,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 309.88 232.41 0)
+		(at 309.88 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16107,7 +15756,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5f0f9dd-5a2e-4780-b571-e5b72b7f343f")
 		(property "Reference" "SW4"
-			(at 309.88 224.79 0)
+			(at 309.88 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16117,7 +15766,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 309.88 227.33 0)
+			(at 309.88 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16127,7 +15776,7 @@
 			)
 		)
 		(property "Footprint" "FSM8JH:SW_FSM8JH"
-			(at 309.88 227.33 0)
+			(at 309.88 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16138,7 +15787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 227.33 0)
+			(at 309.88 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16149,7 +15798,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 309.88 232.41 0)
+			(at 309.88 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16169,168 +15818,6 @@
 			(project "Akash Chowa DX"
 				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecbc26ff-f36d-4ab0-a787-0c8aeaf1e090")
-		(property "Reference" "#PWR023"
-			(at 233.68 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d18765ed-3610-491c-babd-fc6153761a8a")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:CM1213A-01SO")
-		(at 58.42 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9512d1e-1fa3-47d4-8713-4d85655ac39f")
-		(property "Reference" "D6"
-			(at 58.1025 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CM1213A-01SO"
-			(at 58.1025 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 59.69 212.598 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF"
-			(at 56.515 206.248 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Channel ESD Protection Array"
-			(at 58.42 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9677beb4-ba09-43db-8b22-ed75e3cb9c52")
-		)
-		(pin "1"
-			(uuid "8a265ff7-38e8-4e4a-9120-4c09c9f50b98")
-		)
-		(pin "2"
-			(uuid "a003a23e-e651-4284-bb14-e4156f4e311b")
-		)
-		(instances
-			(project "Akash Chowa DX"
-				(path "/10cc001d-d4eb-4c00-ab07-3d482840f733"
-					(reference "D6")
 					(unit 1)
 				)
 			)
